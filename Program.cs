@@ -6,5 +6,6 @@ class Program {
     private static void Main() {
         Day3.Part2(folderPath + "day3");
         Day4.Solve(folderPath + "day4");
+        Day5.Solve(folderPath + "day5");
     }
 }

@@ -1,5 +1,3 @@
-using System.Dynamic;
-
 class Day4 {
     private static string ln; 
     private static List<string> lines = new List<string>();
