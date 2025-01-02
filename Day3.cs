@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-class Day3() {
+class Day3 {
     public static void Part2(string filePath) {
         // Regex pattern to match valid mul(X,Y) instructions or do() or don't() conditions
         string mulPattern = @"mul\((\d{1,3}),(\d{1,3})\)|do\(\)|don't\(\)";
